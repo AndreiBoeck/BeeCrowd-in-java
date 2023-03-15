@@ -1,0 +1,12 @@
+import java.util.Scanner;
+/** add again two numbers */
+public class Main{
+    public static void main(String args[])
+    {
+      Scanner in = new Scanner(System.in);  
+      int x = in.nextInt();
+      int y = in.nextInt();
+      int z = x + y;
+      System.out.printf("SOMA = " + z + "\n");
+    }
+}
