@@ -1,0 +1,18 @@
+import java.util.Scanner;
+/** calculating the total price */
+
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        int Code = in.nextInt();
+        double Number = in.nextDouble();
+        double Price = in.nextDouble();
+        int code = in.nextInt();
+        double number = in.nextDouble();
+        double price = in.nextDouble();
+        double total = Number * Price + number * price;
+        System.out.printf("VALOR A PAGAR: R$ %.2f", total);
+        System.out.println();
+    }
+}
