@@ -1,0 +1,17 @@
+import java.util.Scanner;
+/** Challenge to calculate a salesperson's salary plus his commission */
+
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        int N = in.nextInt();
+        int H = in.nextInt();
+        double S = in.nextDouble();
+        double s = H * S;
+        System.out.printf("NUMBER = ");
+        System.out.println(N);
+        System.out.printf("SALARY = U$ %.2f", s);
+        System.out.println();
+    }
+}
