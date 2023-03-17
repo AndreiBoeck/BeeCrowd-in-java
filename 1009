@@ -1,0 +1,15 @@
+import java.util.Scanner;
+/** similar to the 1008 challenge */
+
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        String NOME = in.next();
+        double S = in.nextDouble();
+        double V = in.nextDouble();
+        double C = (V * 15)/100;
+        System.out.printf("TOTAL = R$ %.2f", C+S);
+        System.out.println();
+    }
+}
