@@ -1,0 +1,40 @@
+import java.util.Scanner;
+/** Program that tells you the bigest number */ 
+
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        int A = in.nextInt();
+        int B = in.nextInt();
+        int C = in.nextInt();
+        if( A > B)
+        {
+            if (A > C)
+            {
+                System.out.print(A);
+                System.out.println(" eh o maior");
+            }
+            else
+            {
+                System.out.print(C);
+                System.out.println(" eh o maior");
+            }
+        }
+        else
+        {
+            if (B>C)
+            {
+                System.out.print(B);
+                System.out.println(" eh o maior");
+            }
+            else
+            {
+                System.out.print(C);
+                System.out.println(" eh o maior");
+            }
+        }
+        
+    }
+}
