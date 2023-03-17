@@ -1,0 +1,27 @@
+import java.util.Scanner;
+/** calculating the area of 4 geometric shapes at the same time */
+
+public class Main{
+    public static void main(String args[])
+    {
+        Scanner in = new Scanner(System.in);
+        double A = in.nextDouble();
+        double B = in.nextDouble();
+        double C = in.nextDouble();
+        double triangulo = (A * C)/2;
+        double circulo = Math.pow(C,2) * 3.14159;
+        double trapezio = ((A + B) * C)/2;
+        double quadrado = B * B;
+        double retangulo = A * B;
+        System.out.printf("TRIANGULO: %.3f", triangulo);
+        System.out.println();
+        System.out.printf("CIRCULO: %.3f", circulo);
+        System.out.println();
+        System.out.printf("TRAPEZIO: %.3f", trapezio);
+        System.out.println();
+        System.out.printf("QUADRADO: %.3f", quadrado);
+        System.out.println();
+        System.out.printf("RETANGULO: %.3f", retangulo);
+        System.out.println();
+    }
+}
